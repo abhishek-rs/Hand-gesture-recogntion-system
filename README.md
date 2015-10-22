@@ -1,3 +1,5 @@
 # Hand-gesture-recogntion-system
 A windows form application to recognize predefined hand gestures a user performs in front of a normal webcam.
 This is our prototype for a gesture recognition application. It can be used with low cost off-the-shelf webcam to capture the user and his hands. These images are put through foreground detection to recognize the hand. Once this is done, contour detection, finger detection is carried out on the residue. We then find the angle of the hand by using the moments of the pixels. All this data is used finally to recognize the gesture using comparison between the predefined definitions of the gestures. This application can be further used as an interface to other consumer applications. Check out our implementation of a gesture controlled picture viewer and a audio player based on this system!
+Read our paper on this implementation at - http://rspublication.com/ijst/2014/june14/73.pdf
+This survey paper might help you understand vision based HGR systems better - http://rspublication.com/ijca/2014/june14/15.pdf
